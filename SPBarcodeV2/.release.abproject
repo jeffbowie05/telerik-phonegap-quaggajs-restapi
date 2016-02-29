@@ -1,5 +1,6 @@
 {
   "CorePlugins": [
+    "com.manateeworks.barcodescanner@v1.8.1",
     "org.apache.cordova.battery-status",
     "org.apache.cordova.camera",
     "org.apache.cordova.contacts",

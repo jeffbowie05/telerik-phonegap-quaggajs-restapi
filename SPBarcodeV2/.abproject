@@ -1,11 +1,11 @@
 {
   "ProjectName": "SPBarcodeV2",
-  "ProjectGuid": "c6f78b5f-9aa7-4632-9ead-91bb41da2193",
+  "ProjectGuid": "442513ad-27e4-44c7-a34f-4170ddfb0faf",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.SPBarcodeV2",
-  "DisplayName": "SPBarcodeV2",
+  "AppIdentifier": "com.telerik.SUCCESSBarcodeScanner",
+  "DisplayName": "SUCCESS Barcode Scanner",
   "Author": "",
-  "Description": "SPBarcodeV2",
+  "Description": "SUCCESS Barcode Scanner",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -32,10 +32,10 @@
     "ID_CAP_WEBBROWSERCOMPONENT"
   ],
   "WP8Requirements": [],
-  "WP8PublisherID": "{bedb4b12-490a-4b9b-a8f0-a068664ee3a5}",
-  "WP8ProductID": "{adfc352e-4700-4fe2-893d-f8a7dcfdf4c1}",
+  "WP8PublisherID": "{632e1776-20ad-46ef-ae68-1fdc2a448ab5}",
+  "WP8ProductID": "{58d194de-463f-4364-934a-3be98928f628}",
   "WPSdk": "8.0",
-  "WP8PackageIdentityName": "1234Telerik.SPBarcodeV2",
+  "WP8PackageIdentityName": "1234Telerik.SUCCESSBarcodeScanner",
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",

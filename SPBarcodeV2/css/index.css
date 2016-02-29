@@ -24,6 +24,10 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    
+     background-color:#0075bb;
+    
+    /*
     background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -35,6 +39,8 @@ body {
         color-stop(0, #A7A7A7),
         color-stop(0.51, #E4E4E4)
     );
+    */
+    
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -47,7 +53,8 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+   /* JB background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    background:url(../img/sp_logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -78,6 +85,7 @@ h1 {
     text-align:center;
 }
 
+/*
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
@@ -96,6 +104,12 @@ h1 {
     background-color:#4B946A;
     display:none;
 }
+*/
+
+#scan {
+    margin-top:3%;
+}
+
 
 @keyframes fade {
     from { opacity: 1.0; }
@@ -112,4 +126,8 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.item p {
+    font-size: 100%
 }
